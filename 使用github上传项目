@@ -1,0 +1,31 @@
+使用github上传项目
+
+首先下载gitbash命令
+
+1.通过cmd
+
+首先在github创建项目，复制地址
+
+首次打开文件
+git clone "git项目地址"
+
+添加或修改
+  1.git add .
+  2.git commit -m "备注"
+  3.git push //将项目推到服务器上
+  4.拷贝gitignore文件忽略对象
+	.DS_Store
+	node_modules/
+	dist/
+	npm-debug.log*
+	yarn-debug.log*
+	yarn-error.log*
+
+	# Editor directories and files
+	.idea
+	.vscode
+	*.suo
+	*.ntvs*
+	*.njsproj
+	*.sln
+2.通过gitHub Desktop或者SourceTree上传
